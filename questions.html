@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="origin">
+        <link rel="icon" href="favicon-2.png">
+
+        <title>Contact Us Page</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <header id="header">
+
+        <nav>	
+            <ul class="nav-bar"><div class="bg"></div>
+               <li><a class="nav-link" href="index.html">Home</a></li>
+               <li><a class="nav-link" href="math-topics.html">Math</a></li>
+               <li><a class="nav-link" href="questions.html">Ask Questions</a></li>
+               <li><a class="nav-link" href="resources.html">Resources</a></li>
+
+            </ul>
+               
+               
+           </nav>
+
+    </header>
+    <body id="covid-body">
+        <div class="filter"></div>
+
+
+    
+
+
+        <section class="contact-page">
+        <!-- <a href="index.php" class="covid-back">Home</a> -->
+
+            <div class="covid-content">
+            </div>
+            <div class="contact-container">
+
+                <div class="contactInfo">
+
+                    <div class="top-content">
+                        <h1>Information<hr id="main-hr" class=" hr-6"></h1>
+
+                        <style>
+                            .hr-6{
+                                width: 165px;
+                            }
+                        </style>
+
+                    </div>
+
+                    <div class="bottom-content">
+                        <p>Send Me Math Questions You're Struggling With 
+                            And I'll Try My Best To Answer Them</p>
+                    </div>
+
+                   
+
+                </div>
+                
+               
+
+                <div class="contactForm" >
+                    <style>
+                        *{
+                            font-family: 'Oswald', sans-serif;
+                        }
+                    </style>
+                    <form action="https://formspree.io/f/mgedvego" method="POST">
+                        <h1>Ask Question<hr id="main-hr" class="hr-5"></h1>
+
+                        <style>
+                            .hr-5{
+                                width: 250px;
+                            }
+                        </style>
+
+                        <input type="hidden" name="_subject" value="NEW SUBMISSION">
+                        <div class="inputBox">
+                            <input type="text" name="Full Name" required="required">
+                            <p>Name</p>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" name="Email" required="required">
+                            <p>Email</p>
+                        </div>
+                        <div class="inputBox">
+                            <textarea name="Message" required="required"></textarea>
+                            <p>Type your question...</p>
+                        </div>
+                        <div class="inputBox">
+                            <input type="file" name="File" >
+                            <p>Insert Photo Of Question</p>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+ 
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+
